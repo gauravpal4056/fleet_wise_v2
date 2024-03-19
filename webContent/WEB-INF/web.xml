@@ -21,13 +21,12 @@
   </servlet-mapping>
   <servlet>
     <description></description>
-    <display-name>DriverServlet</display-name>
-    <servlet-name>DriverServlet</servlet-name>
-    <servlet-class>controller.DriverServlet</servlet-class>
+    <display-name>issues</display-name>
+    <servlet-name>issues</servlet-name>
+    <servlet-class>controller.issues</servlet-class>
   </servlet>
   <servlet-mapping>
-    <servlet-name>DriverServlet</servlet-name>
-    <url-pattern>/DriverServlet</url-pattern>
-    <url-pattern>/Driver/DriverServlet</url-pattern>
+    <servlet-name>issues</servlet-name>
+    <url-pattern>/issues</url-pattern>
   </servlet-mapping>
 </web-app>
