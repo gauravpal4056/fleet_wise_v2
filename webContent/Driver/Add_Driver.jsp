@@ -12,7 +12,7 @@
  <div class="body-form">
     <div class="container oc">
         <h2 class="hp">Add Driver</h2>
-        <form id="addDriverForm" action="add_driver" method="post">
+        <form id="addDriverForm" action="DriverServlet" method="post">
          <div class="form-flex">
             <div class="form-group">
                 <label for="driverName" class="lp">Name</label>
@@ -43,9 +43,9 @@
                 <label for="driverGender" class="lp">Gender</label>
                 <select id="driverGender" name="driverGender" required>
                   <option value="">Select Gender</option>
-                  <option value="male">Male</option>
-                  <option value="female">Female</option>
-                  <option value="other">Other</option>
+                  <option value="MALE">Male</option>
+                  <option value="FEMALE">Female</option>
+                  <option value="OTHER">Other</option>
                 </select>
               </div>
          </div>

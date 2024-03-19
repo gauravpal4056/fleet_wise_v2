@@ -31,6 +31,30 @@ public class Driver {
 		this.joiningDate = joiningDate;
 		this.available = available;
 	}
+	
+//	public Driver(String name, String gender, int age, String licenceNo, long phoneNumber,
+//			String emailAddress, String address, String joiningDate) {
+//		this.name = name;
+//		this.gender = gender;
+//		this.age = age;
+//		this.licenceNo = licenceNo;
+//		this.phoneNumber = phoneNumber;
+//		this.emailAddress = emailAddress;
+//		this.address = address;
+//		this.joiningDate = joiningDate;
+//	}
+//	
+//	public Driver(String name, String gender, int age, String licenceNo, long phoneNumber,
+//			String emailAddress, String address) {
+//		this.name = name;
+//		this.gender = gender;
+//		this.age = age;
+//		this.licenceNo = licenceNo;
+//		this.phoneNumber = phoneNumber;
+//		this.emailAddress = emailAddress;
+//		this.address = address;
+//	}
+	
 	public int getDriverId() {
 		return driverId;
 	}
