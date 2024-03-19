@@ -21,7 +21,7 @@
               <div class="form-group">
                 <label for="driverAge" class="lp">Age</label>
                 <input type="number" id="driverAge" name="driverAge" required placeholder="Age" min="18" max="100">
-              </div>
+              </div>  
          </div>
          
          <div class="form-flex">
